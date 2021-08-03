@@ -18,7 +18,7 @@ resource "aws_instance" "cgi-server" {
                 sudo systemctl start docker.io
                 sudo systemctl start docker-compose
                 sudo git clone https://github.com/skonienczwy/automationChallenge.git
-                sudo docker run --name docker-nginx -p 80:80 -d -v /automationChallenge:/usr/share/nginx/html nginx
+                sudo docker run --name docker-nginx -p 80:80 -p 443:443 -d -v /automationChallenge:/usr/share/nginx/html nginx
                 EOF
     
 
