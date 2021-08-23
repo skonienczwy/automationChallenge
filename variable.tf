@@ -27,6 +27,6 @@ variable  "instanceType"{
 
 variable "publicKey"{
     type = string
-    default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCExYD43mXU0xio5F1pwnBl+8jt8x3APpp/5LTufsdDp8eptBS4Wb1SSswHopClBOs8/dxu6k4Z92kiYfnusxvIJ48vb6zHN52j2BOZBQkgos8G6jqQfcwn62TklBatwsy0wL7acPETX0wBtRmxQ8F7JMQbrqLjSSv2guENChQ+73uDRvI5Ul+VA2plNFIoKUVk+EvSTjjgUXb05Ah65lmf4cGqcKaS3HbUJ8sNhzUhPE6G2FAK//5n06oYe5N2inZbDzEBkM7XzbdGZuJ8kSv1R34yxBGLW+qAf8epq8ztF0wrb0ZV6dGYQDEom9/dgqfVq5ydyGzsNF9YTgMM1GNn imported-openssh-key"
+    default = "YOUR_PUBLIC_KEY"
                 
 }
